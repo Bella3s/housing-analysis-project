@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <title>2012 US Congressional Districts in King County / congdst_area_2012</title>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=c5d9206027864376bd6773b5df4fd5ff</onlink>
+                <onlink>https://kingcounty.maps.arcgis.com/home/item.html?id=5c406e6af244418084993b6eb10bfabc</onlink>
+                <onlink>https://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterTermsAndConditions.pdf</onlink>
+                <onlink>https://www5.kingcounty.gov/sdc/addl_doc/KCGISCenterHelpUsingKCOpenData.pdf</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>This data layer describes the 2012 Congressional Districts in King County after the 2011 redistricting as a result of the 2010 census. It shows the districts exclusive of major water bodies.</abstract>
+            <purpose>Historic 2012 Congressional district boundaries for King County.</purpose>
+        </descript>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>district_OpenData</themekey>
+                <themekey>kingcounty_opendata</themekey>
+                <themekey>congress</themekey>
+                <themekey>congressional</themekey>
+                <themekey>representatives</themekey>
+                <themekey>nation</themekey>
+                <themekey>district</themekey>
+                <themekey>election</themekey>
+                <themekey>redistricting</themekey>
+                <themekey>congdst_area_2012</themekey>
+            </theme>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>King County data are made available with the understanding that they 
+shall be used exclusively by the obtainer or his/her authorized agents. 
+Digital products may not be reproduced or redistributed in any form or 
+by any means without the express written authorization of King County.</useconst>
+        <datacred>King County</datacred>
+    </idinfo>
+    <metainfo>
+        <metd>20220329</metd>
+        <metc>
+            <cntinfo>
+                <!--no contact person or organization name available-->
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
