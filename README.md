@@ -1,4 +1,4 @@
-# King County Housing Analysis Project
+[# King County Housing Analysis Project
 
 ![Map of Homes Sold from dataset]('images/homes_sold_map.png')
 
@@ -43,4 +43,4 @@ Many times, when companies or individuals try to create half-way homes or sober 
 This next step would be best implemented after potential purchases have been narrowed down to specific cities or towns in King County, due to the complexity behind zoning ordinances.  Zones are defined by the cities and towns themselves rather than by the county, and do not follow any easily accessible boundaries, such as zip codes lines (as we can see from the images below). 
 
 <img src=images/zip_code_map.jpg width=50% align="left">
-<img src=images/Smallzonemap.png width=50% align="right">
+<img src=images/Smallzonemap.png width=50% align="right">](https://github.com/Bella3s/housing-analysis-project)https://github.com/Bella3s/housing-analysis-project
