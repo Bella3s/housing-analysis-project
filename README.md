@@ -1,6 +1,6 @@
 # King County Housing Analysis Project
 
-[Map of Homes Sold from dataset]('images/homes_sold_map.png')
+![Map of Homes Sold from dataset]('images/homes_sold_map.png')
 
 ## Overview
 
