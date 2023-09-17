@@ -34,14 +34,14 @@ The given data is already in a usable csv format. The project goes through basic
 
 After looking at the correlation between the target variable, price, and the other numerical variables in the dataset, a simple linear regression model is created using the predictor of square foot living area.  This simple linear regression model is used as a baseline to compare all other models against.
 
-<img src=images/simple_regression_best_fit.png width=50% align="center">
+<img src=images/simple_regression_best_fit.png width=40% align="center">
 
 
 ### Linear Regression with Categorical Variables
 
 In order to incorporate categorical variables, encoding is applied.  The variables transformed in this manner are: `waterfront`, `greenbelt`, `nuisance`, `view`, `grade`, and `condition`.  Once this is accomplished, a regression model with these variables and `sqft_living` is fitted.  The model is an improvement from the simple linear regression model in terms of r-squared and mean absolute error statistics.  It includes more statistically significant variables, however we do see about 6 coefficients that are not statistically significant.
 
-<img src=images/multi_regression_fitted_values.png width=50% align="center">
+<img src=images/multi_regression_fitted_values.png width=40% align="center">
 
 > In comparison to the Line of Best Fit visual for the simple linear regression model, we can see the fitted values from our more complex model better align to our known data.
 
@@ -61,11 +61,11 @@ For the purposes of this project, it is more important to have a lower error rat
 
 The final model explains about 47% of the variation in our target price (specifically ln(price)), is statistically significant overall, and includes variables that are statistically significant. Furthermore, the mean absolute error shows that the average error for the model predictions are about plus or minus $335,000.  
 
-Based on the variables used in regression, we will define an 'average home' one with about 2130 square feet living area, no waterfront, no recorded nuisances, no view, and a grade and condition rating of average.  This average home is predicted to cost about $760,000.
+Based on the variables used in regression, we will define an 'average home' as one with about 2130 square feet living area, no waterfront, no recorded nuisances, no view, and a grade and condition rating of average.  This average home is predicted to cost about $760,000.
 
 The project describes the impact of each statistically significant coefficient in detail.  For the purposes of this summary, please see the below tornado plot.  The percent increase or decrease in predicted house price is shown for each statistically significant coefficient.
 
-<img src=images/tornado_plot.png width=40% align="center">
+<img src=images/tornado_plot.png width=50% align="center">
 
 ## Conclusion 
 ### Suggestions 
