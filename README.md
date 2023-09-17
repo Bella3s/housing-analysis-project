@@ -1,7 +1,7 @@
 # King County Housing Analysis Project 
 
 <img src=images/homes_sold_map.png width=45% align="right">
-<img src=images/topograph_map.jpeg width=45% alighn="left">
+<img src=images/topograph_map.jpg width=45% alighn="left">
 
 ## Overview 
 
