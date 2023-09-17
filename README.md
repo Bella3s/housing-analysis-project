@@ -61,7 +61,7 @@ For the purposes of this project, it is more important to have a lower error rat
 
 The final model explains about 47% of the variation in our target price (specifically ln(price)), is statistically significant overall, and includes variables that are statistically significant. Furthermore, the mean absolute error shows that the average error for the model predictions are about plus or minus $335,000.  
 
-Based on the variables used in regression, we will define an 'average home' as one with about 2130 square feet living area, no waterfront, no recorded nuisances, no view, and a grade and condition rating of average.  This average home is predicted to cost about $760,000.
+Based on the variables used in regression, we will define an 'average home' as one with about 2130 square feet living area, is not on a waterfront, is not next to a greenbelt, has no recorded nuisances, has no view, and has a grade and condition rating of average.  This average home is predicted to cost about $760,000.
 
 The project describes the impact of each statistically significant coefficient in detail.  For the purposes of this summary, please see the below tornado plot.  The percent increase or decrease in predicted house price is shown for each statistically significant coefficient.
 
