@@ -14,7 +14,9 @@ The project aims to give the treatment center the best possible prediction of wh
 
 ## Creating Linear Regression Models 
 
-- Data exploration 
+### Data exploration 
+
+
 - Simple Linear Regression 
 - Pre-processing the categorical variables 
 - Linear Regression Model 
@@ -31,6 +33,8 @@ The project aims to give the treatment center the best possible prediction of wh
 ### Suggestions 
 
 - Budget a minimum of $900,000 - $920,000 -- average price of a 2100 square foot home with two and half bath, and a grade rating of average 
+> What Visual Here?
+
 - For homes with a larger square footage, budget an additional $300 per square foot 
 > Best fit visual here ? 
 
@@ -44,5 +48,5 @@ Many times, when companies or individuals try to create half-way homes or sober 
 
 This next step would be best implemented after potential purchases have been narrowed down to specific cities or towns in King County, due to the complexity behind zoning ordinances.  Zones are defined by the cities and towns themselves rather than by the county, and do not follow any easily accessible boundaries, such as zip codes lines (as we can see from the images below).  
 
-<img src=images/zip_code_map.jpg width=45% align="left"> 
+<img src=images/zip_code_map.jpg width=42% align="left"> 
 <img src=images/Smallzonemap.png width=45% align="right"> 
