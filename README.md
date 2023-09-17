@@ -1,7 +1,7 @@
 # King County Housing Analysis Project 
 
 <img src=images/homes_sold_map.png width=45% align="right">
-<img src=images/topograph_map.jpg width=45% alighn="left">
+<img src=images/topograph_map.jpeg width=45% alighn="left">
 
 ## Overview 
 
@@ -34,19 +34,21 @@ The given data is already in a usable csv format. The project goes through basic
 
 After looking at the correlation between the target variable, price, and the other numerical variables in the dataset, a simple linear regression model is created using the predictor of square foot living area.  This simple linear regression model is used as a baseline to compare all other models against.
 
-<img src=images/simple_regression_best_fit.png width=40% align="left">
+<img src=images/simple_regression_best_fit.png width=50% align="center">
 
 
 ### Linear Regression with Categorical Variables
 
 In order to incorporate categorical variables, encoding is applied.  The variables transformed in this manner are: `waterfront`, `greenbelt`, `nuisance`, `view`, `grade`, and `condition`.  Once this is accomplished, a regression model with these variables and `sqft_living` is fitted.  The model is an improvement from the simple linear regression model in terms of r-squared and mean absolute error statistics.  It includes more statistically significant variables, however we do see about 6 coefficients that are not statistically significant.
-<img src=images/multi_regression_fitted_values.png width=40% align="left">
+
+<img src=images/multi_regression_fitted_values.png width=50% align="center">
 
 > In comparison to the Line of Best Fit visual for the simple linear regression model, we can see the fitted values from our more complex model better align to our known data.
 
 ### Logrithmic Transformation of Price
 
 The target variable, price, has an underlying distribution with a dramatic right skew. In order to try and improve upon the model, the project applies a logarithmic transformation on price and fits a new model with this transformed target. This model is an improvement as all but one of the coefficients become statistically significant at an alpha of 0.05.  Furthermore, the mean absolute error decreases from the previous model as well.
+
 ### Drop Outliers in Price
 
 Rather than a logarithmic transformation, this iteration attempts to create a more normal distribution of price by dropping the outliers in this variable.  The resulting model shows marginal improvement from the original complex regression in terms of the r-squared and mean absolute error statistics.  However, the mean absolute error is slightly greater (and therefore worse) than the model with the logarithmic transformation. Furthermore, this model has less statistically significant coefficients than the log transformed model. 
@@ -63,16 +65,16 @@ Based on the variables used in regression, we will define an 'average home' one 
 
 The project describes the impact of each statistically significant coefficient in detail.  For the purposes of this summary, please see the below tornado plot.  The percent increase or decrease in predicted house price is shown for each statistically significant coefficient.
 
-<img src=tornado_plot.png width=40% align="center">
+<img src=images/tornado_plot.png width=40% align="center">
 
 ## Conclusion 
 ### Suggestions 
 
-#### Minimum Budget
+#### 1. Minimum Budget
 
 Budget a minimum of $760,000 per home plan to purchase.  This is the predicted price of our defined average home.
 
-#### Condition
+#### 2. Condition
 
 For King County, Washington, the condition of a home ranges from poor to very good. Homes with an average condition have "some evidence of deferred maintenance" with "a few minor repairs needed." Based on this description and the center's needs it is recommended to look at homes with a minimum condition of average.  If a home with a condition of poor, the home price would be about 16% cheaper, however these "worn out" homes will need maintenance -- the cost of which can negate any savings from purchasing such a home.
 
@@ -80,7 +82,7 @@ Furthermore, it would be wise to set aside about an additional $53,000 if lookin
 
 <img src=images/condition_recommend.png width=40% align="center">
 
-#### Grade
+#### 3. Grade
 
 King County has a grade scale that goes from "1 Cabin" up to "13 Mansion." A home with an average (7) grade is described as one with "average grade of construction and design" and it is "commonly seen in plats and older sub-divisions."  It is also important to note the King County has set building standards for homes -- they must be of grade 6 or above to meet these standards. Grades "8 Good" through "10 Very Good" show sequentially better materials used in construction and more thoughtful or appealing designs.  Lastly, grades "11 Excellent" on up all consist of custom designs and top tier materials used in construction.
 
