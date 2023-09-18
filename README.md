@@ -45,7 +45,7 @@ In order to incorporate categorical variables, encoding is applied.  The variabl
 
 > In comparison to the Line of Best Fit visual for the simple linear regression model, we can see the fitted values from our more complex model better align to our known data.
 
-### Logrithmic Transformation of Price
+### Logarithmic Transformation of Price
 
 The target variable, price, has an underlying distribution with a dramatic right skew. In order to try and improve upon the model, the project applies a logarithmic transformation on price and fits a new model with this transformed target. This model is an improvement as all but one of the coefficients become statistically significant at an alpha of 0.05.  Furthermore, the mean absolute error decreases from the previous model as well.
 
